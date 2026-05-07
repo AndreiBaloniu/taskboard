@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Goblin Colosseum</title>
+  <link rel="stylesheet" href="./src/styles.css" />
+</head>
+<body>
+  <div id="ui">
+    <div class="topbar">
+      <div><strong>Goblin Colosseum</strong><span id="stateText">Wave 1</span></div>
+      <div id="stats"></div>
+    </div>
+    <div id="centerPanel" class="panel hidden"></div>
+    <div class="help">WASD move · Mouse aim · LMB punch · Space dash · F restart</div>
+  </div>
+  <canvas id="game"></canvas>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
